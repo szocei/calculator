@@ -1,9 +1,4 @@
-html {
-    
-    background-attachment: fixed;
-    color: #6cacc5;
-  }
-  
+ 
   body {
     color: #6cacc5;
     font: 300 18px/1.6 "Source Sans Pro",sans-serif;
@@ -21,21 +16,19 @@ html {
   .calculator {
     font-size: 28px;
     margin: 0 auto;
-    width: 14em;
+    width: 14.5em;
       
   }
-  
-  
   
   .viewer {
       background-color: #073d06;
     color: #f5efef;
-    float: left;
+  
     line-height: 3em;
     text-align: right;
-    
+    padding-right: 15px;
     border-radius: 12px;
-    width: 13.8em;
+    width: 13.5em;
     height: 3em;
   }
   
@@ -47,37 +40,26 @@ html {
     float: left;
     font: inherit;
     margin: 0.25em;
-    width: 2em;
+    width: 3em;
     height: 2em;
     transition: all 0.5s;
      }
 
      .equals {
-        border-radius: 25px;
+        border-radius: 12px;
         background: rgb(230, 248, 71);
         color: #300b02;
         cursor: pointer;
-        float: left;
+        float: right;
         font: inherit;
         margin: 0.25em;
-        width: 3.5em;
+        margin-right: 0.5em;
+        width: 3.25em;
         height: 9.5em;
         transition: all 0.5s;
      }
 
-     .reset {
-        border: 0;
-    background: rgb(42,50,113);
-    color: #dce8ec;
-    cursor: pointer;
-    float: left;
-    font: inherit;
-    margin: 0.25em;
-    width: 4em;
-    height: 1.5em;
-    transition: all 0.5s; 
-     }
-  
+    
 
   
 
